@@ -40,4 +40,4 @@ RUN uv sync
 
 # Default entrypoint for running FastAPI services
 ENTRYPOINT ["uv", "run", "uvicorn"]
-CMD ["ab_service.token_issuer.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["ab_service.token_store.main:app", "--host", "0.0.0.0", "--port", "80"]
