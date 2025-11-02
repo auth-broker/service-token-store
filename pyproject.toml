@@ -26,11 +26,11 @@ dependencies = [
   "pydantic[email]>=2.11.7,<3",
   "uvicorn>=0.35.0,<0.36",
 ]
-description = "A template package template."
-name = "ab-template-service"
+description = "Storres user tokens for Auth Broker."
+name = "ab-token-store-service"
 readme = "README.md"
 requires-python = ">=3.12, <4"
-version = "0.2.1"
+version = "0.1.0"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/ab_service"]

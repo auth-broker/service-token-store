@@ -11,7 +11,7 @@ services:
       - data:/package/data
 
     ports:
-      - "8000:80"
+      - "8005:80"
 
 volumes:
   data:
