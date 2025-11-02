@@ -1,6 +1,6 @@
 <div align="center">
 
-# Python Package Template
+# Token Store Service
 
 The template repository for creating python packages, shared across auth-broker.
 
