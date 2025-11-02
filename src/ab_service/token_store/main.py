@@ -10,7 +10,7 @@ from ab_core.logging.config import LoggingConfig
 from ab_core.sqlalchemy_fastapi_http_exceptions import register_database_exception_handlers
 from fastapi import FastAPI
 
-from ab_service.template.routes.heartbeat import router as heartbeat_router
+from ab_service.token_store.routes.token import router as token_router
 
 
 @inject
@@ -29,4 +29,4 @@ async def lifespan(
 
 app = FastAPI(lifespan=lifespan)
 register_database_exception_handlers(app)
-app.include_router(heartbeat_router)
+app.include_router(token_router)
