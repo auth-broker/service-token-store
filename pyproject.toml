@@ -23,7 +23,7 @@ dependencies = [
   "ab-database[sqlite-async,postgres-sync,postgres-async]>=0.2.2,<1",
   "ab-logging>=0.1.2",
   "ab-sqlalchemy-fastapi-http-exceptions>=0.1.0",
-  "fastapi>=0.115.14,<0.116",
+  "fastapi>=0.115.14,<0.121",
   "pydantic[email]>=2.11.7,<3",
   "uvicorn>=0.35.0,<0.36",
 ]
