@@ -19,6 +19,7 @@ dev = [
 authors = [{email = "53892067+mattcoulter7@users.noreply.github.com", name = "Matthew Coulter"}]
 dependencies = [
   "ab-alembic-auto-migrate>=0.2.0,<1",
+  "ab-auth-client>=0.1.8",
   "ab-database[sqlite-async,postgres-sync,postgres-async]>=0.2.2,<1",
   "ab-logging>=0.1.2",
   "ab-sqlalchemy-fastapi-http-exceptions>=0.1.0",

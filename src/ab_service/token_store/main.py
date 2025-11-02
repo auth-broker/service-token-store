@@ -1,4 +1,4 @@
-"""Main application for the User Service."""
+"""Main application for the OAuth2 Token Service."""
 
 from contextlib import asynccontextmanager
 from typing import Annotated
